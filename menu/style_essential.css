@@ -1,0 +1,68 @@
+
+nav ul ul {
+	display: none; /* nasconde i sottomenu*/
+}
+
+nav ul li:hover > ul {
+	display: block; /* riconverte a blocco i sottomenu quando il mouse si posiziona sopra una voce di menu agendo sul selettore figlio ul*/
+}
+
+nav ul {
+	background: #efefef; 
+	list-style: none; /* elimina i punti dalla lista*/
+	position: relative;/* posiziona il sotto menu relativamente al menu principale*/
+	display: inline-table; /* visualizza le voci di menu in orizzontale come se fossero una cella di tabella*/
+}
+
+
+/*
+nav ul:after {
+	content: ""; clear: both; display: block;
+	}*/
+	
+nav ul li {
+	float: left;
+}
+
+	nav ul li:hover {
+		background: #cc0000; /*colora la voce al passare del puntatore*/
+	}
+
+	nav ul li:hover a {
+		color: #fff; /*colora il testo del link al passare del puntatore*/
+		}
+	
+		
+		nav ul li a { /*stile del link del munu */
+		display: block; 
+		padding: 25px 40px;/
+		color: #757575; /*colore del testo del link menu*/
+		text-decoration: none;
+	}
+
+	nav ul ul { /*stile del sotto menu*/
+		background: #aa0000; 
+		padding: 0;
+		position: absolute; /*posizione fissa del sottomenu relativamente al menu principale*/
+		top: 100%;/* 100% dal top del menu principale = lato basso (bottom)*/
+}
+
+nav ul ul li {
+		float: none; 
+		position: relative; /*posizione di ogni singola voce del sottomenu == statica */ 
+	}
+
+nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+
+nav ul ul li a:hover {
+	background: #ee0000;
+			}
+			
+nav ul ul ul {
+	position: absolute; /*posizione fissa del secondo sottomenu in riferimento al secondo che lo contiene spostato tutto a destra*/
+	left: 100%; 
+	top:0;
+}
