@@ -395,7 +395,7 @@ div#capitolo16{
 #immagine2{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/ballo_criceto.png);
+    /*background-image: url(immagini/ballo_criceto.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-color: red;
@@ -404,7 +404,7 @@ div#capitolo16{
 
 #immagine3{
   margin-top:8%;
-  background-image: url(immagini/pokemon_uo.png);
+  /*background-image: url(immagini/pokemon_uo.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -835,7 +835,7 @@ div#capitolo10{
 #immagine2{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/ballo_criceto.png);
+    /*background-image: url(immagini/ballo_criceto.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-color: red;
@@ -844,7 +844,7 @@ div#capitolo10{
 
 #immagine3{
   margin-top:8%;
-  background-image: url(immagini/pokemon_uo.png);
+  /*background-image: url(immagini/pokemon_uo.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
