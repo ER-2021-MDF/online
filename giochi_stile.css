@@ -26,6 +26,20 @@ button:focus {
     background-size: contain;
 }
 
+#bV{
+    background-image: url(anteprime/gioco2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#cV{
+    background-image: url(anteprime/gioco3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .scenetta {
     text-align: center;
     color: white;
