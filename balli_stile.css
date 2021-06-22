@@ -22,6 +22,27 @@ button:focus {
     line-height:25em;
 }
 
+#aV{
+    background-image: url(anteprime/ballo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#bV{
+    background-image: url(anteprime/ballo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#cV{
+    background-image: url(anteprime/ballo3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 @media only screen and (min-width: 1024px){
 
 body{
