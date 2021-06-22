@@ -22,6 +22,34 @@ button:focus {
     line-height:25em;
 }
 
+#aV{
+    background-image: url(anteprime/base.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#bV{
+    background-image: url(anteprime/base2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#cV{
+    background-image: url(anteprime/base3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#dV{
+    background-image: url(anteprime/base4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 @media only screen and (min-width: 1024px){
 
 body{
