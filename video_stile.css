@@ -50,6 +50,14 @@ button:focus {
     background-size: contain;
 }
 
+#eV{
+    background-image: url(anteprime/base5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+    
+
 @media only screen and (min-width: 1024px){
 
 body{
