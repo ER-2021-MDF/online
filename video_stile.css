@@ -56,7 +56,83 @@ button:focus {
     background-position: center;
     background-size: contain;
 }
-    
+
+#fV{
+    background-image: url(anteprime/base6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#gV{
+    background-image: url(anteprime/base7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#hV{
+    background-image: url(anteprime/base8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#iV{
+    background-image: url(anteprime/base9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#lV{
+    background-image: url(anteprime/base10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#mV{
+    background-image: url(anteprime/base11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#nV{
+    background-image: url(anteprime/base12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#oV{
+    background-image: url(anteprime/base13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#pV{
+    background-image: url(anteprime/base14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#rV{
+    background-image: url(anteprime/base15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#sV{
+    background-image: url(anteprime/base16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 
 @media only screen and (min-width: 1024px){
 
@@ -392,26 +468,6 @@ div#capitolo16{
     float: right;
 }
 
-#aV{
-    background-image: url(anteprime/base.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-#bV{
-    background-image: url(anteprime/base2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-#cV{
-    background-image: url(anteprime/base3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
 
 #immagine1{
     background-image: url(grafiche/cap1.png);
@@ -462,7 +518,7 @@ div#capitolo16{
 #immagine6{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/pesciolino_dance.png);
+    /*background-image: url(immagini/pesciolino_dance.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -471,7 +527,7 @@ div#capitolo16{
 
 #immagine7{
   margin-top:8%;
-  background-image: url(immagini/plug_play.png);
+  /*background-image: url(immagini/plug_play.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -481,7 +537,7 @@ div#capitolo16{
 #immagine8{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    /*background-image: url(immagini/river.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -490,7 +546,7 @@ div#capitolo16{
 
 #immagine9{
   margin-top:8%;
-  background-image: url(immagini/mountain.png);
+  /*background-image: url(immagini/mountain.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -500,7 +556,7 @@ div#capitolo16{
 #immagine10{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    /*background-image: url(immagini/river.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -509,7 +565,7 @@ div#capitolo16{
 
 #immagine11{
   margin-top:8%;
-  background-image: url(immagini/mountain.png);
+  background-image: url(grafiche/cap11.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -519,7 +575,7 @@ div#capitolo16{
 #immagine12{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    /*background-image: url(immagini/river.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -528,7 +584,7 @@ div#capitolo16{
 
 #immagine13{
   margin-top:8%;
-  background-image: url(immagini/mountain.png);
+  /*background-image: url(immagini/mountain.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -538,7 +594,7 @@ div#capitolo16{
 #immagine14{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    background-image: url(grafiche/cap14.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -547,7 +603,7 @@ div#capitolo16{
 
 #immagine15{
   margin-top:8%;
-  background-image: url(immagini/mountain.png);
+  /*background-image: url(immagini/mountain.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -557,7 +613,7 @@ div#capitolo16{
 #immagine16{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    background-image: url(grafiche/cap16.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -568,7 +624,7 @@ div#capitolo16{
 position:absolute;
 color:white;
 left:0%;
-top:150%;  /*50% ogni 3*/
+top:350%;  /*50% ogni 3*/
 height:30%;
 width:100%;
 text-align:center;
@@ -1000,7 +1056,7 @@ div#capitolo16{
 
 #immagine5{
   margin-top:8%;
-  /*background-image: url(immagini/old_pop.png);*/
+ /* background-image: url(immagini/old_pop.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1010,7 +1066,7 @@ div#capitolo16{
 #immagine6{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/pesciolino_dance.png);
+    /*background-image: url(immagini/pesciolino_dance.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1019,7 +1075,7 @@ div#capitolo16{
 
 #immagine7{
   margin-top:8%;
-  background-image: url(immagini/plug_play.png);
+ /* background-image: url(immagini/plug_play.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1029,7 +1085,7 @@ div#capitolo16{
 #immagine8{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    /*background-image: url(immagini/river.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1038,7 +1094,7 @@ div#capitolo16{
 
 #immagine9{
   margin-top:8%;
-  background-image: url(immagini/mountain.png);
+  /*background-image: url(immagini/mountain.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1048,7 +1104,7 @@ div#capitolo16{
 #immagine10{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    /*background-image: url(immagini/river.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1057,7 +1113,7 @@ div#capitolo16{
 
 #immagine11{
   margin-top:8%;
-  background-image: url(immagini/mountain.png);
+ /* background-image: url(immagini/mountain.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1067,7 +1123,7 @@ div#capitolo16{
 #immagine12{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    /*background-image: url(immagini/river.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1076,7 +1132,7 @@ div#capitolo16{
 
 #immagine13{
   margin-top:8%;
-  background-image: url(immagini/mountain.png);
+  /*background-image: url(immagini/mountain.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1086,7 +1142,7 @@ div#capitolo16{
 #immagine14{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    /*background-image: url(immagini/river.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1095,7 +1151,7 @@ div#capitolo16{
 
 #immagine15{
   margin-top:8%;
-  background-image: url(immagini/mountain.png);
+  /*background-image: url(immagini/mountain.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1105,7 +1161,7 @@ div#capitolo16{
 #immagine16{
     margin-top:8%;
     float:left;
-    background-image: url(immagini/river.png);
+    /*background-image: url(immagini/river.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1116,7 +1172,7 @@ div#capitolo16{
 position:absolute;
 color:white;
 left:0%;
-top:300%;
+top:350%;
 height:50%;
 width:100%;
 text-align:center;
