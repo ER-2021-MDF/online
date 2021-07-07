@@ -351,7 +351,7 @@ button.prev, button.next{
 position:absolute;
 color:white;
 left:0%;
-top:150%;  /*50% ogni 3*/
+top:350%;  /*50% ogni 3*/
 height:30%;
 width:100%;
 text-align:center;
@@ -730,7 +730,7 @@ button.prev, button.next{
 position:absolute;
 color:white;
 left:0%;
-top:300%;
+top:350%;
 height:50%;
 width:100%;
 text-align:center;
@@ -1002,7 +1002,7 @@ button.prev, button.next{
 position:absolute;
 color:white;
 left:0%;
-top:300%;
+top:350%;
 height:50%;
 width:100%;
 text-align:center;
