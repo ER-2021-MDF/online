@@ -15,8 +15,116 @@ button:focus {
     /*position: absolute!!!!!!!!!!!!!!!!!!!!!! cambiare così rimane su mentre il resto si carica*/
 }
 
-#sezioneB{
-    display:none;
+#aV{
+    background-image: url(rebus/r1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#bV{
+    background-image: url(rebus/r2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#cV{
+    background-image: url(rebus/r3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#dV{
+    background-image: url(rebus/r4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#eV{
+    background-image: url(rebus/r5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#fV{
+    background-image: url(rebus/r6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#gV{
+    background-image: url(rebus/r7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#hV{
+    background-image: url(rebus/r8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#iV{
+    background-image: url(rebus/r9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#lV{
+    background-image: url(rebus/r10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#mV{
+    background-image: url(rebus/r11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#nV{
+    background-image: url(rebus/r12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#oV{
+    background-image: url(rebus/r13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#pV{
+    background-image: url(rebus/r14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#rV{
+    background-image: url(rebus/r15.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#sV{
+    background-image: url(rebus/r16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 @media only screen and (min-width: 1024px){
@@ -203,31 +311,11 @@ height:20%
   left:64%;;
 }
 
-button.tabButton {
-    background-color: black;
-    color: red;
-    width: 33%;
-    font-size: 1.5em;
-    font-family: "Krona One", sans-serif;
-    line-height: 170%;
-}
-.tabSection {
-    width: 100%;
-    display: inline;
-}
-
-section.tabMenu {
-    position: absolute;
-    width: 90%;
-    margin: 0 5%;
-    top: 75%;
-    height: 20%;
-}
 
 .elenco{
 position:absolute;
 color:white;
-top:95%;
+top:75%;
 left:5%;
 width:90%;
 /*background-color:gray;*/
@@ -446,7 +534,7 @@ div#capitolo16{
 position:absolute;
 color:white;
 left:0%;
-top:150%;  /*50% ogni 3*/
+top:350%;  /*50% ogni 3*/
 height:30%;
 width:100%;
 text-align:center;
@@ -556,7 +644,7 @@ background-color:red;
 .elenco{
 position:absolute;
 color:white;
-top:95%;
+top:75%;
 left:5%;
 width:90%;
 /*background-color:gray;*/
@@ -681,27 +769,6 @@ left:5%;
     z-index:1;
     position:absolute;
   left:64%;
-}
-
-button.tabButton {
-    background-color: black;
-    color: red;
-    width: 32%;
-    font-size: 1.5em;
-    font-family: "Krona One", sans-serif;
-    line-height: 170%;
-}
-.tabSection {
-    width: 100%;
-    display: inline;
-}
-
-section.tabMenu {
-    position: absolute;
-    width: 90%;
-    margin: 0 5%;
-    top: 75%;
-    height: 20%;
 }
 
 .contenitore{
@@ -1021,27 +1088,6 @@ background-color:red;
         border-radius: 6em;
 }
 
-button.tabButton {
-    background-color: black;
-    color: red;
-    width: 32%;
-    font-size: 1.5em;
-    font-family: "Krona One", sans-serif;
-    line-height: 170%;
-}
-.tabSection {
-    width: 100%;
-    display: inline;
-}
-
-section.tabMenu {
-    position: absolute;
-    width: 90%;
-    margin: 0 5%;
-    top: 65%;
-    height: 20%;
-    font-size: 0.4em;
-}
 
 .elenco{
 position:absolute;
