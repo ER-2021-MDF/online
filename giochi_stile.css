@@ -252,31 +252,10 @@ height:20%
   left:64%;;
 }
 
-button.tabButton {
-    background-color: black;
-    color: red;
-    width: 49%;
-    font-size: 1.5em;
-    font-family: "Krona One", sans-serif;
-    line-height: 170%;
-}
-.tabSection {
-    width: 100%;
-    display: inline;
-}
-
-section.tabMenu {
-    position: absolute;
-    width: 90%;
-    margin: 0 5%;
-    top: 75%;
-    height: 20%;
-}
-
 .elenco{
 position:absolute;
 color:white;
-top:95%;
+top:75%;
 left:5%;
 width:90%;
 /*background-color:gray;*/
@@ -605,7 +584,7 @@ background-color:red;
 .elenco{
 position:absolute;
 color:white;
-top:95%;
+top:75%;
 left:5%;
 width:90%;
 /*background-color:gray;*/
@@ -730,27 +709,6 @@ left:5%;
     z-index:1;
     position:absolute;
   left:64%;
-}
-
-button.tabButton {
-    background-color: black;
-    color: red;
-    width: 49%;
-    font-size: 1.5em;
-    font-family: "Krona One", sans-serif;
-    line-height: 170%;
-}
-.tabSection {
-    width: 100%;
-    display: inline;
-}
-
-section.tabMenu {
-    position: absolute;
-    width: 90%;
-    margin: 0 5%;
-    top: 75%;
-    height: 20%;
 }
 
 .contenitore{
@@ -1068,28 +1026,6 @@ background-color:red;
     background-size:contain;
     background-position:center;
         border-radius: 6em;
-}
-
-button.tabButton {
-    background-color: black;
-    color: red;
-    width: 49%;
-    font-size: 1.5em;
-    font-family: "Krona One", sans-serif;
-    line-height: 170%;
-}
-.tabSection {
-    width: 100%;
-    display: inline;
-}
-
-section.tabMenu {
-    position: absolute;
-    width: 90%;
-    margin: 0 5%;
-    top: 65%;
-    height: 20%;
-    font-size: 0.4em;
 }
 
 .elenco{
