@@ -1,0 +1,671 @@
+<html>
+
+<head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Oswald:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="slider_stile.css">
+<script src="hammer.js"></script>
+
+<title>
+</title>
+
+</head>
+
+<body onload="carica()">
+
+<section id="loader"></section>
+
+<section id="vista">
+
+<section id="header">
+
+<div id="titolino">Parrocchia Madonna di Fatima</div>
+<div id="titolo">ESTATE RAGAZZI 2021</div>
+<a href="gsap prova.html" id="logo"></a>
+
+</section>
+
+     <section class="categoria">
+        <div id="pagina">DISEGNI</div>
+        
+        <div id="storia">
+        
+        <div class="Twin"></div>
+        <div class="Tour"></div>
+        <div class="pine"></div>
+        
+        <div class="car"></div>
+        
+        <div class="Twin2"></div>
+        <div class="Tour2"></div>
+        <div class="pine2"></div>
+        
+        </div>
+        
+    </section>
+
+<section class="elenco">
+   
+    <section class="singolo">
+   
+        <div id="capitolo1" class="contenitore">
+            <div class="capitolo">CAPITOLO 1
+    
+                <button id="cap1" class="esci" value="false" onclick="apri('A', this.id, 0)">v</button>
+    
+            <div id="AWrapper" class="slideshow-container">
+                <div class="mySlides1 fade">
+                    <img src="disegni\giorno 1\Gatto sull'albero .jpg">
+                </div>
+
+                <div class="mySlides1 fade">
+                    <img src="disegni\giorno 1\Mr incredibile & Elastigirl.jpg">
+                </div>
+
+                <div class="mySlides1 fade">
+                    <img src="disegni\giorno 1\Bob e Incrediboy.jpg">
+                </div>
+                
+                <div class="mySlides1 fade">
+                    <img src="disegni\giorno 1\Bob ferma il treno .jpg">
+                </div>
+                
+                <div class="mySlides1 fade">
+                    <img src="disegni\giorno 1\Matrimonio Bob&Helen.jpg">
+                </div>
+
+                <button class="prev" onclick="plusSlides(-1, 0)">&#10094;</button>
+                <button class="next" onclick="plusSlides(1, 0)">&#10095;</button>
+            </div>
+    
+            </div>
+            
+        </div>
+     
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo2" class="contenitore">
+            <div class="capitolo">CAPITOLO 2
+    
+                <button id="cap2" class="esci" value="false" onclick="apri('B', this.id, 1)">v</button>
+    
+                <div id="BWrapper" class="slideshow-container">
+                    <div class="mySlides2 fade">
+                        <img src="disegni\giorno 2\bob a lavoro2.jpg">
+                    </div>
+
+                    <div class="mySlides2 fade">
+                        <img src="disegni\giorno 2\famiglia a cena 2.jpg">
+                    </div>
+                    
+                    <div class="mySlides2 fade">
+                        <img src="disegni\giorno 2\Jack Jack 2.jpg">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 1)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 1)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo3" class="contenitore">
+            <div class="capitolo">CAPITOLO 3
+                <button id="cap3" class="esci" value="false" onclick="apri('C', this.id, 2)">v</button>
+    
+                <div id="CWrapper" class="slideshow-container">
+                    <div class="mySlides3 fade">
+                        <img src="disegni\giorno 3\siberius e bob.jpg">
+                    </div>
+                
+                    <button class="prev" onclick="plusSlides(-1, 2)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 2)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo4" class="contenitore">
+            <div class="capitolo">CAPITOLO 4
+                <button id="cap4" class="esci" value="false" onclick="apri('D', this.id, 3)">v</button>
+    
+                <div id="DWrapper" class="slideshow-container">
+                    <div class="mySlides4 fade">
+                        <img src="disegni\giorno 4\mirage.jpg">
+                    </div>
+
+                    <div class="mySlides4 fade">
+                        <img src="disegni\giorno 4\tablet.jpg">
+                    </div>
+
+                    <div class="mySlides4 fade">
+                        <img src="disegni\giorno 4\tyrion.jpg">
+                    </div>
+
+                    <button class="prev" onclick="plusSlides(-1, 3)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 3)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo5" class="contenitore">
+            <div class="capitolo">CAPITOLO 5
+                <button id="cap5" class="esci" value="false" onclick="apri('E', this.id, 4)">v</button>
+    
+                <div id="EWrapper" class="slideshow-container">
+                    <div class="mySlides5 fade">
+                        <img src="disegni\giorno 5\bob vs robot.jpg">
+                    </div>
+
+                    <div class="mySlides5 fade">
+                        <img src="disegni\giorno 5\robot 1.jpg">
+                    </div>
+
+                    <button class="prev" onclick="plusSlides(-1, 4)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 4)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo6" class="contenitore">
+            <div class="capitolo">CAPITOLO 6
+                <button id="cap6" class="esci" value="false" onclick="apri('F', this.id, 5)">v</button>
+    
+                <div id="FWrapper" class="slideshow-container">
+                    <div class="mySlides6 fade">
+                        <img src="disegni\giorno 6\tuta bob.jpg">
+                    </div>
+
+                    <div class="mySlides6 fade">
+                        <img src="disegni\giorno 6\workout bob.jpg">
+                    </div>
+
+                    <button class="prev" onclick="plusSlides(-1, 5)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 5)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo7" class="contenitore">
+            <div class="capitolo">CAPITOLO 7
+                <button id="cap7" class="esci" value="false" onclick="apri('G', this.id, 6)">v</button>
+    
+                <div id="GWrapper" class="slideshow-container">
+                    <div class="mySlides7 fade">
+                        <img src="disegni\giorno 7\sindrome 1.jpg">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 6)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 6)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo8" class="contenitore">
+            <div class="capitolo">CAPITOLO 8
+                <button id="cap8" class="esci" value="false" onclick="apri('H', this.id, 7)">v</button>
+    
+                <div id="HWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides8 fade">
+                        <img src="disegni\giorno 8\bob 4.jpg">
+                    </div>
+                    
+                    <div class="mySlides8 fade">
+                        <img src="disegni\giorno 8\costumi.jpg">
+                    </div>
+                    
+                    <div class="mySlides8 fade">
+                        <img src="disegni\giorno 8\edna 1.jpg">
+                    </div>
+                    
+                    <div class="mySlides8 fade">
+                        <img src="disegni\giorno 8\flash.jpg">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 7)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 7)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+     <section class="singolo">
+   
+        <div id="capitolo9" class="contenitore">
+            <div class="capitolo">CAPITOLO 9
+                <button id="cap9" class="esci" value="false" onclick="apri('J', this.id, 8)">v</button>
+    
+                <div id="JWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides9 fade">
+                        <img src="disegni\giorno 9\aereo.jpg">
+                    </div>
+                    
+                    <div class="mySlides9 fade">
+                        <img src="disegni\giorno 9\golf.jpg">
+                    </div>
+                    
+                    <div class="mySlides9 fade">
+                        <img src="disegni\giorno 9\lo scafo.jpg">
+                    </div>
+                    
+                    <div class="mySlides9 fade">
+                        <img src="disegni\giorno 9\mr incredibile 1.jpg">
+                    </div>
+                    
+                    <div class="mySlides9 fade">
+                        <img src="disegni\giorno 9\paracadute helen.jpg">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 8)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 8)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo10" class="contenitore">
+            <div class="capitolo">CAPITOLO 10
+                <button id="cap10" class="esci" value="false" onclick="apri('K', this.id, 9)">v</button>
+    
+                <div id="KWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides10 fade">
+                        <img src="disegni\giorno 10\helen.jpg">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 9)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 9)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo11" class="contenitore">
+            <div class="capitolo">CAPITOLO 11
+                <button id="cap11" class="esci" value="false" onclick="apri('L', this.id, 10)">v</button>
+    
+                <div id="LWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides11 fade">
+                        <img src="disegni\giorno 11\liberi.jpg">
+                    </div>
+                    
+                    <div class="mySlides11 fade">
+                        <img src="disegni\giorno 11\insieme 2.jpg">
+                    </div>
+                    
+                    <div class="mySlides11 fade">
+                        <img src="disegni\giorno 11\corsa.jpg">
+                    </div>
+                    
+                    <div class="mySlides11 fade">
+                        <img src="disegni\giorno 11\insieme 6.jpg">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 10)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 10)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo12" class="contenitore">
+            <div class="capitolo">CAPITOLO 12
+                <button id="cap12" class="esci" value="false" onclick="apri('M', this.id, 11)">v</button>
+    
+                <div id="MWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides12 fade">
+                        <img src="disegni\giorno 12\robot finale.jpg">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 11)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 11)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo13" class="contenitore">
+            <div class="capitolo">CAPITOLO 13
+                <button id="cap13" class="esci" value="false" onclick="apri('N', this.id, 12)">v</button>
+    
+                <div id="NWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides13 fade">
+                        <img src="disegni\giorno 13\siberius.gif">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 12)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 12)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo14" class="contenitore">
+            <div class="capitolo">CAPITOLO 14
+                <button id="cap14" class="esci" value="false" onclick="apri('O', this.id, 13)">v</button>
+    
+                <div id="OWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides14 fade">
+                        <img src="disegni\giorno 14\vittoria.jpg">
+                    </div>
+                    
+                    <div class="mySlides14 fade">
+                        <img src="disegni\giorno 14\preso.jpg">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 13)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 13)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo15" class="contenitore">
+            <div class="capitolo">CAPITOLO 15
+                <button id="cap15" class="esci" value="false" onclick="apri('P', this.id, 14)">v</button>
+    
+                <div id="PWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides15 fade">
+                        <img src="disegni\giorno 15\insieme 1.png">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 14)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 14)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <section class="singolo">
+   
+        <div id="capitolo16" class="contenitore">
+            <div class="capitolo">CAPITOLO 16
+                <button id="cap16" class="esci" value="false" onclick="apri('Q', this.id, 15)">v</button>
+    
+                <div id="QWrapper" class="slideshow-container">
+                    
+                    <div class="mySlides16 fade">
+                        <img src="disegni\giorno 16\jack-jack.jpg">
+                    </div>
+                    
+                    <div class="mySlides16 fade">
+                        <img src="disegni\giorno 16\insieme 4.png">
+                    </div>
+                    
+                    <button class="prev" onclick="plusSlides(-1, 15)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 15)">&#10095;</button>
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    
+</section>  
+
+<section id="footer">
+
+<div class="colonna1">
+<ul>
+<li>Ufficio parrocchiale: Via Città di Alba 32, Pinerolo (TO)</li>
+<li>Indirizzo e-mail parrocchia: parrocchia.madonnafatima@gmail.com</li>
+</ul>
+</div>
+
+<div class="colonna2">
+<ul>
+<li>Telefono ufficio: 0121 71988</li>
+<li>Indirizzo e-mail animatori: gruppogiovani.mdf@gmail.com</li>
+</ul>
+</div>
+
+</section>
+
+</section>
+
+</body>
+
+<footer>
+
+<script src="includiSwipe.js"></script>
+
+<script>
+
+var grandezzaSlider = 0;
+
+var footerSize=350; //350 a dimensione totale
+var wrapperFooterSize;
+
+var tx = gsap.timeline({});
+
+tx.from(".Twin", {duration: 1, y:100})
+  .from(".Tour", {duration: 1, y:100}, "-=0.9")
+  .from(".pine", {duration: 1, y:100}, "-=0.9")
+  .from(".Twin2", {duration: 1, y:100}, "-=0.9")
+  .from(".Tour2", {duration: 1, y:100}, "-=0.9")
+  .from(".pine2", {duration: 1, y:100}, "-=0.9")
+  .from(".car", {duration: 2, x:1000}); 
+  tx.to(".car", {duration: 2, x: -1000}, "+=5");
+ 
+var attivo = [16];
+var mobile = false;
+var tablet = false;
+var dimensione = window.matchMedia("(max-width: 600px)"); 
+var dimensione2 = window.matchMedia("(max-width: 1023px)"); 
+
+function carica(){
+    setTimeout(function(){
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("vista").style.display = "inline"; }, 1000);
+} 
+ 
+function controlloMediaQuery() {
+  if (dimensione.matches) { // If media query matches
+    mobile = true;
+  } else if (dimensione2.matches){
+    mobile = false;
+    tablet = true;
+  }
+  else{
+    mobile = false;
+    tablet = false;
+  }
+} 
+ 
+function apri(idImmagini, bottone, posizione){
+
+var valore = document.getElementById(bottone).getAttribute('value');
+var wrapper = idImmagini+"Wrapper";
+var altezzaI = "100%";
+var altezzaW;
+controlloMediaQuery();
+if(mobile){
+  altezzaW = "12em";
+  }
+  else if(tablet){
+    altezzaW= "20em";
+    }
+  else{altezzaW = "25em";}
+
+
+if(valore === "false"){
+    document.getElementById(bottone).setAttribute('value', "true");
+    document.getElementById(bottone).innerHTML = "^";
+    attivo [posizione] = true;
+    aggiustaFooter();
+    showSlides(0, posizione);
+    var t2 = gsap.timeline({});
+    t2.to("#"+wrapper, {duration: 0.4, height: altezzaW, display:"block"});
+    grandezzaSlider = document.getElementById(wrapper).offsetWidth;
+}
+else {
+    document.getElementById(bottone).setAttribute('value', "false");
+    document.getElementById(bottone).innerHTML = "v";
+    attivo [posizione] = false;
+    var t2 = gsap.timeline({});
+    t2.to("#"+wrapper, {duration: 0.4, height:0, display:"none"});
+    riduciFooter();
+      
+}
+
+}
+
+function aggiustaFooter(){
+if(attivo){
+footerSize = footerSize + 90; 
+wrapperFooterSize = footerSize+"%";
+document.getElementById("footer").style.top = wrapperFooterSize;
+}
+else{
+footerSize = footerSize + 45; 
+wrapperFooterSize = footerSize+"%";
+document.getElementById("footer").style.top = wrapperFooterSize;
+}
+}
+
+function riduciFooter(){
+if(attivo){
+footerSize = footerSize - 90; 
+wrapperFooterSize = footerSize+"%";
+document.getElementById("footer").style.top = wrapperFooterSize;
+}
+else{
+footerSize = footerSize - 45; 
+wrapperFooterSize = footerSize+"%";
+document.getElementById("footer").style.top = wrapperFooterSize;
+}
+}
+
+var slideIndex = [1,16];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9", "mySlides10",
+ "mySlides11", "mySlides12", "mySlides13", "mySlides14", "mySlides15", "mySlides16"];
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < x.length; i++) {
+  if(attivo[i]===true){
+     x[slideIndex[no]-1].style.display = "inline-block";
+     /*var numero = x[slideIndex[no]-1].offsetWidth;
+     alert(numero);
+     alert(grandezzaSlider);
+     var newMargine = (grandezzaSlider-numero)/2;
+     alert(newMargine);
+     x[slideIndex[no]-1].style.marginLeft = newMargine;*/
+     }
+  }
+   
+}
+</script>
+
+</footer>
+
+</html>
